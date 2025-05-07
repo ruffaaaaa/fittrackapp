@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_cream"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- User Info Section -->
+    <LinearLayout
+        android:id="@+id/profileSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/color_primary"
+                android:layout_marginEnd="10dp" />
+
+            <Button
+                android:id="@+id/buttonSetName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set"
+                android:textSize="10sp"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:backgroundTint="@color/color_accent"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- Stats Section -->
+    <LinearLayout
+        android:id="@+id/statsSection"
+        android:layout_below="@id/profileSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textWorkoutDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textTotalMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textLastWorkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+    <!-- Buttons Section -->
+    <LinearLayout
+        android:id="@+id/actionButtons"
+        android:layout_below="@id/statsSection"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp">
+
+        <Button
+            android:id="@+id/buttonGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Generate New Plan"
+            android:backgroundTint="@color/color_primary"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/buttonForm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="FORM"
+            android:backgroundTint="@color/color_secondary"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Reset"
+            android:backgroundTint="@color/color_accent"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        android:padding="8dp"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>

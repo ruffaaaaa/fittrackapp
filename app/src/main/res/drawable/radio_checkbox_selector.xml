@@ -1,0 +1,34 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When pressed -->
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#EAE9E9" /> <!-- Color for pressed state -->
+            <corners android:radius="10dp" /> <!-- Border radius -->
+            <stroke
+                android:color="#EAE9E9"
+                android:width="2dp" /> <!-- Border width -->
+        </shape>
+    </item>
+
+    <!-- When checked -->
+    <item android:state_checked="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/color_textWhite" /> <!-- Color for checked state -->
+            <corners android:radius="10dp" />
+            <stroke
+                android:color="@color/color_primary"
+                android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#FFFFFF" /> <!-- Default background color -->
+            <corners android:radius="10dp" />
+            <stroke
+                android:color="#EAE9E9"
+                android:width="2dp" />
+        </shape>
+    </item>
+</selector>

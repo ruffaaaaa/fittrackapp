@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="15dp"
+    android:padding="16dp"
+    android:background="@drawable/rounded_corner"
+    android:layout_width="200dp"
+    android:layout_height="200dp">
+
+    <TextView
+        android:id="@+id/dayTitle"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Day 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/exerciseText"
+        android:textSize="16sp"
+        android:text="• Push-ups\n• Squats"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/restDayImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_rest"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">fittrackapp</string>
+    <string-array name="intensity_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string name="get_started">Get Started</string>
+</resources>

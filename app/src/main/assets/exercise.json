@@ -1,0 +1,578 @@
+[
+    {
+        "name": "Bodyweight Squats",
+        "muscleGroup": "Legs",
+        "instruction": "Stand with feet shoulder-width apart. Lower your hips back and down, then return to standing.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Lose weight, Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Back pain or injury", "Knee injury"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Push-ups",
+        "muscleGroup": "Chest, Arms",
+        "instruction": "Start in a plank position, lower your body by bending your elbows, and push back up.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Shoulder injury", "Neck pain"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Glute Bridges",
+        "muscleGroup": "Glutes",
+        "instruction": "Lie on your back with knees bent. Lift your hips to form a straight line from knees to shoulders.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds",
+        "location": "Home"
+    },
+    {
+        "name": "Mountain Climbers",
+        "muscleGroup": "Full Body",
+        "instruction": "In a plank position, alternate bringing knees to chest in a running motion.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": ["Knee injury", "Back pain or injury"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Plank",
+        "muscleGroup": "Core",
+        "instruction": "Hold your body in a straight line from head to heels, keeping your core tight.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Jumping Jacks",
+        "muscleGroup": "Cardio",
+        "instruction": "Jump your feet out while raising your arms overhead, then return to starting position.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": ["Knee injury", "Heart condition"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Lunges",
+        "muscleGroup": "Legs",
+        "instruction": "Step forward with one leg, lower your hips until both knees are at 90 degrees, and push back up.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Knee injury", "Back pain or injury"],
+        "time": "30 seconds per leg",
+        "location": "Home"
+
+    },
+    {
+        "name": "Tricep Dips (using a chair)",
+        "muscleGroup": "Arms",
+        "instruction": "Place hands on a chair, lower your body by bending elbows, then push back up.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Shoulder injury"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Leg Raises",
+        "muscleGroup": "Core",
+        "instruction": "Lie flat and raise your legs to a 90-degree angle while keeping your core tight.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Back pain or injury"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Russian Twists",
+        "muscleGroup": "Core",
+        "instruction": "Sit with feet off the ground, rotate your torso from side to side while holding your hands together.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Superman",
+        "muscleGroup": "Lower Back",
+        "instruction": "Lie on your stomach, extend arms and legs, and lift both as high as possible.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Back pain or injury"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Side Plank",
+        "muscleGroup": "Core",
+        "instruction": "Lie on your side and raise your hips so your body is in a straight line, holding the position.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds per side",
+        "location": "Home"
+
+    },
+    {
+        "name": "High Knees",
+        "muscleGroup": "Cardio",
+        "instruction": "Stand tall and run in place, lifting knees as high as possible.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": ["Knee injury", "Heart condition"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Bicycle Crunches",
+        "muscleGroup": "Core",
+        "instruction": "Lie on your back, bring opposite elbows and knees together while alternating sides.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Back pain or injury"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Step-ups (using a chair)",
+        "muscleGroup": "Legs",
+        "instruction": "Step onto a chair with one leg, then alternate legs.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "30 seconds per leg",
+        "location": "Home"
+
+    },
+    {
+        "name": "Standing Calf Raises",
+        "muscleGroup": "Legs",
+        "instruction": "Stand tall, rise up on your toes, and slowly lower back down.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Wall Sit",
+        "muscleGroup": "Legs",
+        "instruction": "Sit against a wall with knees at 90 degrees, holding the position.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Inchworm",
+        "muscleGroup": "Full Body",
+        "instruction": "Stand tall, bend down, walk your hands forward into a plank, then walk them back.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve flexibility",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Knee Push-ups",
+        "muscleGroup": "Chest, Arms",
+        "instruction": "Perform push-ups with knees on the ground, keeping your body in a straight line.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Shoulder injury", "Neck pain"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Tuck Jumps",
+        "muscleGroup": "Legs, Cardio",
+        "instruction": "Jump as high as you can while pulling your knees to your chest.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "30 seconds",
+        "location": "Home"
+
+    },
+    {
+        "name": "Barbell Squats",
+        "muscleGroup": "Legs",
+        "instruction": "Place the barbell across your upper back, squat down, and return to standing.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Back pain or injury", "Knee injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Deadlifts",
+        "muscleGroup": "Full Body",
+        "instruction": "Stand with feet shoulder-width apart, bend at the hips to grab the barbell, and lift the weight with proper form.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve strength",
+        "excludeForMedicalCondition": ["Back pain or injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Leg Press",
+        "muscleGroup": "Legs",
+        "instruction": "Sit on the leg press machine, place feet on the platform, and push the weight upwards.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Pull-ups",
+        "muscleGroup": "Back, Arms",
+        "instruction": "Hang from the bar with palms facing away, pull your body up until chin is above the bar.",
+        "difficulty": "Advanced",
+        "fitnessGoal": "Build muscle, Improve strength",
+        "excludeForMedicalCondition": ["Shoulder injury"],
+        "time": "30 seconds",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Bench Press",
+        "muscleGroup": "Chest, Arms",
+        "instruction": "Lie on the bench, lower the barbell to your chest, and press it back up.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Shoulder injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Lat Pulldowns",
+        "muscleGroup": "Back",
+        "instruction": "Pull the bar down to your chest while seated, engaging your lats.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Shoulder injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Dumbbell Lunges",
+        "muscleGroup": "Legs",
+        "instruction": "Hold a dumbbell in each hand, take a step forward, and lower your body until both knees are at 90 degrees.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Barbell Rows",
+        "muscleGroup": "Back, Arms",
+        "instruction": "Bend forward with a straight back, pull the barbell towards your torso.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Back pain or injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Bicep Curls",
+        "muscleGroup": "Arms",
+        "instruction": "Hold a dumbbell in each hand, curl the weights up to your shoulders, and lower them back down.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": [],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Tricep Kickbacks",
+        "muscleGroup": "Arms",
+        "instruction": "Hold a dumbbell in each hand, bend forward, and extend your arms behind you.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": [],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Seated Shoulder Press",
+        "muscleGroup": "Shoulders",
+        "instruction": "Sit on a bench, press dumbbells overhead until arms are fully extended.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Shoulder injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Cable Machine Chest Fly",
+        "muscleGroup": "Chest",
+        "instruction": "Stand between two cable machines, hold the handles, and bring your hands together in front of you.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Shoulder injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Leg Extensions",
+        "muscleGroup": "Legs",
+        "instruction": "Sit on the leg extension machine, extend your legs until straight, then return.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Chest Press Machine",
+        "muscleGroup": "Chest",
+        "instruction": "Sit on the chest press machine, push the handles forward until arms are fully extended.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Shoulder injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Leg Curl Machine",
+        "muscleGroup": "Legs",
+        "instruction": "Sit on the machine, hook your legs under the pads, and curl your legs towards your glutes.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Smith Machine Squats",
+        "muscleGroup": "Legs",
+        "instruction": "Place the barbell on your shoulders and squat down while maintaining proper posture.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": ["Back pain or injury", "Knee injury"],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Russian Twists (using weight)",
+        "muscleGroup": "Core",
+        "instruction": "Sit with feet off the ground, twist torso from side to side while holding a weight.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": [],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Cable Tricep Pushdowns",
+        "muscleGroup": "Arms",
+        "instruction": "Stand at the cable machine, grab the rope, and extend arms downward.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle",
+        "excludeForMedicalCondition": [],
+        "time": "1 minute",
+        "location": "Gym"
+
+    },
+    {
+        "name": "Running",
+        "muscleGroup": "Cardio",
+        "instruction": "Run at a steady pace, focusing on proper form and breathing.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": ["Knee injury", "Heart condition"],
+        "time": "15-30 minutes",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Jump Rope",
+        "muscleGroup": "Cardio",
+        "instruction": "Jump rope continuously, keeping knees slightly bent.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Cycling",
+        "muscleGroup": "Legs, Cardio",
+        "instruction": "Cycle at a moderate pace, maintaining good posture.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "20-30 minutes",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Sprints",
+        "muscleGroup": "Legs, Cardio",
+        "instruction": "Sprint for short distances, focusing on speed and form.",
+        "difficulty": "Advanced",
+        "fitnessGoal": "Improve endurance, Build muscle",
+        "excludeForMedicalCondition": ["Knee injury", "Heart condition"],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Hiking",
+        "muscleGroup": "Full Body",
+        "instruction": "Walk on varying terrains, maintaining a steady pace.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": [],
+        "time": "1-2 hours",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Burpees",
+        "muscleGroup": "Full Body",
+        "instruction": "Start in a squat, jump into a plank, perform a push-up, and jump back up.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Improve endurance, Burn fat",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Walking Lunges",
+        "muscleGroup": "Legs",
+        "instruction": "Take a step forward, lower into a lunge, then alternate legs.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Box Jumps",
+        "muscleGroup": "Legs",
+        "instruction": "Jump onto a box or platform, landing softly.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Improve endurance, Build muscle",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Kettlebell Swings",
+        "muscleGroup": "Full Body",
+        "instruction": "Swing a kettlebell between your legs and thrust your hips forward.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Squat Jumps",
+        "muscleGroup": "Legs",
+        "instruction": "Perform a squat and then jump explosively into the air.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": ["Knee injury"],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Tire Flips",
+        "muscleGroup": "Full Body",
+        "instruction": "Flip a large tire over by using your legs and core.",
+        "difficulty": "Advanced",
+        "fitnessGoal": "Build muscle, Improve strength",
+        "excludeForMedicalCondition": ["Back pain or injury"],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Bear Crawl",
+        "muscleGroup": "Full Body",
+        "instruction": "Crawl on all fours, keeping your core engaged and back flat.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve endurance",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Shadow Boxing",
+        "muscleGroup": "Full Body",
+        "instruction": "Throw punches in the air while maintaining a steady pace.",
+        "difficulty": "Beginner",
+        "fitnessGoal": "Improve endurance, Build muscle",
+        "excludeForMedicalCondition": [],
+        "time": "30 seconds",
+        "location": "Outdoor"
+
+    },
+    {
+        "name": "Farmers Walk",
+        "muscleGroup": "Arms, Shoulders, Core",
+        "instruction": "Hold heavy weights in both hands and walk for distance.",
+        "difficulty": "Intermediate",
+        "fitnessGoal": "Build muscle, Improve strength",
+        "excludeForMedicalCondition": [],
+        "time": "1 minute",
+        "location": "Outdoor"
+
+    }
+]
+
+
+
+
+

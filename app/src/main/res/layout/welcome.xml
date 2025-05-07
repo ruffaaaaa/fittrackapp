@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/fit_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fitness" />
+
+    <!-- Overlay to control opacity -->
+    <!--    <View-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="#66000000" /> &lt;!&ndash; 40% opacity black &ndash;&gt;-->
+
+    <!-- Overlay Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="20dp"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16dp"
+                    android:text="TRACK YOUR PROGRESS,"
+                    android:textColor="@color/color_textBlack" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="26dp"
+                    android:textStyle="bold"
+                    android:text="ACHIEVE YOUR GOALS"
+                    android:textColor="@color/color_primary" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:weightSum="2"/>
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/get_started"
+            android:textColor="@android:color/white"
+            app:backgroundTint="@color/color_primary"
+            app:cornerRadius="50dp"
+            app:strokeColor="#FFFFFF" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FitTrack"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fittrackapp"
+        tools:targetApi="31" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeDashboardActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+
+            />
+
+        <activity android:name=".FitnessFormActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+
+            />
+        <activity android:name=".CreateWorkoutPlanActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+
+            />
+        <activity android:name=".ExerciseDashboardActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+
+            />
+        <activity android:name=".StartExerciseActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+
+            />
+        <activity android:name=".WorkoutHistoryActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+            />
+
+        <activity android:name=".WorkoutGraphActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+            />
+
+        <activity android:name=".ProfileActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+            />
+
+        <activity android:name=".EditProfileActivity"
+            android:theme="@style/Theme.Fittrackapp.NoActionBar"
+            />
+
+        <receiver android:name=".NotificationReceiver" android:enabled="true" android:exported="false" />
+
+    </application>
+
+    <!-- MainActivity (Launcher) -->
+
+
+</manifest>

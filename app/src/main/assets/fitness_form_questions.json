@@ -1,0 +1,144 @@
+[
+    {
+        "id": 1,
+        "key": "gender",
+        "question": "What is your gender?",
+        "type": "radio",
+        "options": [
+            "Male",
+            "Female",
+            "Prefer not to say",
+            "Other"
+        ]
+    },
+    {
+        "id": 2,
+        "key": "age",
+        "question": "What is your age?",
+        "type": "text",
+        "placeholder": "Enter your age"
+    },
+    {
+        "id": 3,
+        "key": "weight",
+        "question": "What is your current weight (kg)?",
+        "type": "text",
+        "placeholder": "Enter your weight"
+    },
+    {
+        "id": 4,
+        "key": "height",
+        "question": "What is your current height (cm)?",
+        "type": "text",
+        "placeholder": "Enter your height"
+    },
+    {
+        "id": 5,
+        "key": "fitnessGoal",
+        "question": "What is your main fitness goal?",
+        "type": "radio",
+        "options": [
+            "Lose weight",
+            "Build muscle",
+            "Improve endurance",
+            "Increase flexibility",
+            "Reduce stress",
+            "Maintain general health",
+            "Other"
+        ],
+        "allowOtherText": true
+    },
+    {
+        "id": 6,
+        "key": "motivation",
+        "question": "What motivates you the most?",
+        "type": "radio",
+        "options": [
+            "Look more attractive",
+            "Get Stronger",
+            "Improve Health",
+            "Feel Confident",
+            "Boost Energy",
+            "Release Stress"
+        ]
+    },
+    {
+        "id": 7,
+        "key": "fitnessLevel",
+        "question": "What is your current fitness level?",
+        "type": "radio",
+        "options": [
+            "Beginner (new to working out)",
+            "Intermediate (work out occasionally)",
+            "Advanced (regularly active)"
+        ]
+    },
+    {
+        "id": 8,
+        "key": "workoutDays",
+        "question": "How many days per week would you like to work out?",
+        "type": "radio",
+        "options": [
+            "1–2 days",
+            "3–4 days",
+            "5–6 days",
+            "Everyday"
+        ]
+    },
+    {
+        "id": 9,
+        "key": "medicalConditions",
+        "question": "Are you experiencing any of the following injuries or medical conditions? (Select all that apply)",
+        "type": "checkbox",
+        "options": [
+            "None",
+            "Back pain or injury",
+            "Knee injury",
+            "Shoulder injury",
+            "Neck pain",
+            "Heart condition",
+            "Asthma or respiratory issues",
+            "Diabetes",
+            "Arthritis",
+            "Recent surgery",
+            "Pregnancy",
+            "Other (please specify)"
+        ],
+        "allowOtherText": true
+    },
+    {
+        "id": 10,
+        "key": "exerciseLocation",
+        "question": "Where do you prefer to exercise?",
+        "type": "radio",
+        "options": [
+            "Home",
+            "Gym",
+            "Outdoor",
+            "No preference"
+        ]
+    },
+    {
+        "id": 11,
+        "key": "experienceWithEquipment",
+        "question": "How comfortable are you with using gym equipment?",
+        "type": "radio",
+        "options": [
+            "I have experience using gym equipment",
+            "I need guidance on how to use gym equipment",
+            "I prefer bodyweight exercises only"
+        ]
+    },
+    {
+        "id": 12,
+        "key": "preferredWorkoutTime",
+        "question": "What time of day do you prefer to workout?",
+        "type": "radio",
+        "options": [
+            "Morning",
+            "Afternoon",
+            "Evening",
+            "No preference"
+        ]
+    }
+]
