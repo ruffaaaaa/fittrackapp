@@ -2,6 +2,8 @@ package com.example.fittrackapp;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.ColorStateList;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -11,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.example.fittrackapp.model.WorkoutDetail;
 
@@ -143,14 +146,20 @@ public class StartExerciseActivity extends AppCompatActivity {
             exerciseNameTextView.setText("Workout Complete!");
             instructionTextView.setText("");
             timerTextView.setText("✔");
+            timerTextView.setTextSize(80);
+            timerTextView.setTypeface(null, Typeface.BOLD);
+
             progressBar.setProgress(progressBar.getMax());
-            // Disable or hide buttons
+            progressBar.setProgressTintList(ColorStateList.valueOf(ContextCompat.getColor(this, android.R.color.holo_green_dark)));
+
             btnPauseResume.setEnabled(false);
-            btnPauseResume.setVisibility(View.GONE); // Hide pause/resume button
+            btnPauseResume.setVisibility(View.GONE);
+
             btnSkip.setEnabled(false);
-            btnSkip.setVisibility(View.GONE);        // Hide skip button
+            btnSkip.setVisibility(View.GONE);
 
             btnDone.setVisibility(View.VISIBLE);
+
             saveWorkoutToHistory();
         }
     }
@@ -237,8 +246,6 @@ public class StartExerciseActivity extends AppCompatActivity {
         editor.putString(day, workoutArray.toString());
         editor.apply();
     }
-
-
 
     private void markDayAsCompleted() {
         if (day != null && !day.isEmpty()) {
