@@ -25,7 +25,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.fittrackapp.helper.FitnessFormDBHelper;
+import com.example.fittrackapp.helper.FittrackDBHelper;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -39,7 +39,7 @@ public class FitnessFormActivity extends AppCompatActivity {
 
     private LinearLayout questionsContainer;
     private ProgressBar progressBar;
-    private FitnessFormDBHelper dbHelper;
+    private FittrackDBHelper dbHelper;
 
     private Button continueButton;
     private SharedPreferences sharedPreferences;
@@ -55,7 +55,7 @@ public class FitnessFormActivity extends AppCompatActivity {
         continueButton = findViewById(R.id.continueButton);
         progressBar = findViewById(R.id.progressBar);
         sharedPreferences = getSharedPreferences("fitness_form_responses", MODE_PRIVATE);
-        dbHelper = new FitnessFormDBHelper(this);
+        dbHelper = new FittrackDBHelper(this);
 
         try {
             String json = loadJSONFromAsset();

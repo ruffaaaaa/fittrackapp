@@ -225,7 +225,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle, Improve endurance",
         "excludeForMedicalCondition": ["Back pain or injury", "Knee injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -236,7 +236,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle, Improve strength",
         "excludeForMedicalCondition": ["Back pain or injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -247,7 +247,7 @@
         "difficulty": "Beginner",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Knee injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -269,7 +269,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Shoulder injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -280,7 +280,7 @@
         "difficulty": "Beginner",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Shoulder injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -291,7 +291,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Knee injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -302,7 +302,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Back pain or injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -313,7 +313,7 @@
         "difficulty": "Beginner",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": [],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -324,7 +324,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": [],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -335,7 +335,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Shoulder injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -346,7 +346,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Shoulder injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -357,7 +357,7 @@
         "difficulty": "Beginner",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Knee injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -368,7 +368,7 @@
         "difficulty": "Beginner",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Shoulder injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -379,7 +379,7 @@
         "difficulty": "Beginner",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Knee injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -390,7 +390,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": ["Back pain or injury", "Knee injury"],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -401,7 +401,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": [],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -412,7 +412,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle",
         "excludeForMedicalCondition": [],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Gym"
 
     },
@@ -566,7 +566,7 @@
         "difficulty": "Intermediate",
         "fitnessGoal": "Build muscle, Improve strength",
         "excludeForMedicalCondition": [],
-        "time": "1 minute",
+        "time": "60 seconds",
         "location": "Outdoor"
 
     }

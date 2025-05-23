@@ -28,9 +28,12 @@ public class WorkoutHistoryAdapter extends ArrayAdapter<WorkoutDetail> {
 
         TextView nameText = convertView.findViewById(R.id.nameTextView);
         TextView timeText = convertView.findViewById(R.id.timeTextView);
+        TextView dateTimeText= convertView.findViewById(R.id.textDateTime);
 
         nameText.setText(workout.getName());
         timeText.setText("Time: " + workout.getTime());
+        dateTimeText.setText("Date: " + workout.getDateTime());
+
 
         return convertView;
     }

@@ -30,6 +30,8 @@ public class StartExerciseActivity extends AppCompatActivity {
     private Button btnPauseResume, btnSkip, btnDone;
 
     private List<WorkoutDetail> workoutDetails;
+    private List<WorkoutDetail> completedWorkouts = new ArrayList<>();
+
     private int currentExerciseIndex = 0;
 
     private CountDownTimer currentTimer;
@@ -179,9 +181,17 @@ public class StartExerciseActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
                 timerTextView.setText("0s");
+
+                // ✅ Set timestamp for the completed exercise
+                String dateTime = java.text.DateFormat.getDateTimeInstance().format(new java.util.Date());
+                WorkoutDetail completed = workoutDetails.get(currentExerciseIndex);
+                completed.setDateTime(dateTime);
+                completedWorkouts.add(completed); // Add to list
+
                 currentExerciseIndex++;
                 showExerciseDetails();
             }
+
         }.start();
     }
 
@@ -205,22 +215,25 @@ public class StartExerciseActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("WorkoutHistory", MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
-        JSONArray completedWorkouts = new JSONArray();
-        for (WorkoutDetail workout : workoutDetails) {
+        JSONArray workoutArray = new JSONArray();
+        for (WorkoutDetail workout : completedWorkouts) {
             JSONObject workoutObject = new JSONObject();
             try {
                 workoutObject.put("name", workout.getName());
                 workoutObject.put("time", workout.getTime());
                 workoutObject.put("instruction", workout.getInstruction());
-                completedWorkouts.put(workoutObject);
+                workoutObject.put("dateTime", workout.getDateTime()); // ✅ Individual timestamps
+                workoutArray.put(workoutObject);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }
 
-        editor.putString(day, completedWorkouts.toString());
+        editor.putString(day, workoutArray.toString());
         editor.apply();
     }
+
+
 
     private void markDayAsCompleted() {
         if (day != null && !day.isEmpty()) {

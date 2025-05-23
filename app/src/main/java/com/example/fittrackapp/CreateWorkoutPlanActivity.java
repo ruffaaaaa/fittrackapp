@@ -15,7 +15,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import com.example.fittrackapp.helper.GeneratedWorkoutDBHelper;
+import com.example.fittrackapp.helper.FittrackDBHelper;
 import com.example.fittrackapp.model.WorkoutPlan;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -269,7 +269,7 @@ public class CreateWorkoutPlanActivity extends AppCompatActivity {
         Gson gson = new Gson();
         List<Map<String, Object>> structuredPlan = new ArrayList<>();
 
-        GeneratedWorkoutDBHelper dbHelper = new GeneratedWorkoutDBHelper(this);
+        FittrackDBHelper dbHelper = new FittrackDBHelper(this);
         dbHelper.clearWorkoutPlans();
 
         for (int i = 0; i < workoutSchedule.size(); i++) {

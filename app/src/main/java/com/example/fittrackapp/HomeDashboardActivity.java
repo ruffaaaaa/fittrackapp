@@ -38,6 +38,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -169,8 +170,9 @@ public class HomeDashboardActivity extends AppCompatActivity {
                     String name = workoutObject.getString("name");
                     String time = workoutObject.getString("time");
                     String instruction = workoutObject.getString("instruction");
+                    String dateTime = workoutObject.optString("dateTime", "");
 
-                    tempList.add(new WorkoutDetail(name, time, instruction));
+                    tempList.add(new WorkoutDetail(name, time, instruction, dateTime));
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -178,9 +180,14 @@ public class HomeDashboardActivity extends AppCompatActivity {
         }
 
         int start = Math.max(0, tempList.size() - 5);
-        homeHistoryList.addAll(tempList.subList(start, tempList.size()));
+        List<WorkoutDetail> lastFive = tempList.subList(start, tempList.size());
 
+        Collections.reverse(lastFive);
+
+        homeHistoryList.clear();
+        homeHistoryList.addAll(lastFive);
     }
+
 
     private List<DailyExercise> parsePlan() {
         List<DailyExercise> list = new ArrayList<>();

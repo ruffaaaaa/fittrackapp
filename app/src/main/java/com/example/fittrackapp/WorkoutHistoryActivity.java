@@ -95,8 +95,9 @@ public class WorkoutHistoryActivity extends AppCompatActivity {
                     String name = workoutObject.getString("name");
                     String time = workoutObject.getString("time");
                     String instruction = workoutObject.getString("instruction");
+                    String dateTime = workoutObject.optString("dateTime", ""); // get dateTime if exists
 
-                    historyList.add(new WorkoutDetail( name, time, instruction));
+                    historyList.add(new WorkoutDetail(name, time, instruction, dateTime));
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -108,5 +109,6 @@ public class WorkoutHistoryActivity extends AppCompatActivity {
             Toast.makeText(this, "No history found", Toast.LENGTH_SHORT).show();
         }
     }
+
 
 }

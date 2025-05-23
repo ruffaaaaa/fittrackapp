@@ -184,7 +184,7 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
     private void deleteAllSharedPreferences() {
-        String[] prefsList = {"WorkoutHistory", "UserPrefs", "fitness_form_responses", "generated_workout_plan" };
+        String[] prefsList = {"WorkoutHistory","completed_exercises", "UserPrefs", "fitness_form_responses", "generated_workout_plan" };
         for (String name : prefsList) {
             SharedPreferences prefs = getSharedPreferences(name, MODE_PRIVATE);
             prefs.edit().clear().apply();
