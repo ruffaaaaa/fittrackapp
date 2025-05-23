@@ -139,12 +139,17 @@ public class StartExerciseActivity extends AppCompatActivity {
             }.start();
 
         } else {
+
             exerciseNameTextView.setText("Workout Complete!");
             instructionTextView.setText("");
-            timerTextView.setText("");
-            progressBar.setProgress(0);
+            timerTextView.setText("✔");
+            progressBar.setProgress(progressBar.getMax());
+            // Disable or hide buttons
             btnPauseResume.setEnabled(false);
+            btnPauseResume.setVisibility(View.GONE); // Hide pause/resume button
             btnSkip.setEnabled(false);
+            btnSkip.setVisibility(View.GONE);        // Hide skip button
+
             btnDone.setVisibility(View.VISIBLE);
             saveWorkoutToHistory();
         }

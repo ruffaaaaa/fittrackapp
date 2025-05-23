@@ -19,6 +19,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Map;
 
 public class WorkoutHistoryActivity extends AppCompatActivity {
@@ -95,7 +96,7 @@ public class WorkoutHistoryActivity extends AppCompatActivity {
                     String name = workoutObject.getString("name");
                     String time = workoutObject.getString("time");
                     String instruction = workoutObject.getString("instruction");
-                    String dateTime = workoutObject.optString("dateTime", ""); // get dateTime if exists
+                    String dateTime = workoutObject.optString("dateTime", "");
 
                     historyList.add(new WorkoutDetail(name, time, instruction, dateTime));
                 }
@@ -105,10 +106,16 @@ public class WorkoutHistoryActivity extends AppCompatActivity {
             }
         }
 
+        Collections.reverse(historyList);
+
         if (historyList.isEmpty()) {
             Toast.makeText(this, "No history found", Toast.LENGTH_SHORT).show();
         }
     }
+
+
+
+
 
 
 }
